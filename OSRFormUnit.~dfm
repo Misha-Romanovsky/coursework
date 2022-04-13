@@ -1,0 +1,39 @@
+object OSRForm: TOSRForm
+  Left = 328
+  Top = 231
+  Width = 412
+  Height = 453
+  Caption = 'Работаем...'
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -13
+  Font.Name = 'MS Sans Serif'
+  Font.Style = []
+  OldCreateOrder = False
+  PixelsPerInch = 120
+  TextHeight = 16
+  object Panel1: TPanel
+    Left = 0
+    Top = 0
+    Width = 404
+    Height = 421
+    Align = alClient
+    TabOrder = 0
+    object Bevel1: TBevel
+      Left = 1
+      Top = 1
+      Width = 402
+      Height = 419
+      Align = alClient
+    end
+    object Image1: TImage
+      Left = 1
+      Top = 1
+      Width = 402
+      Height = 419
+      Align = alClient
+      AutoSize = True
+    end
+  end
+end

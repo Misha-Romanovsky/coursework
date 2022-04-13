@@ -1,0 +1,34 @@
+inherited AverageFilterDialogForm: TAverageFilterDialogForm
+  Left = 342
+  Top = 365
+  Caption = '”средн€ющий фильр'
+  ClientHeight = 131
+  ClientWidth = 496
+  OnShow = FormShow
+  PixelsPerInch = 120
+  TextHeight = 16
+  inherited Panel: TPanel
+    Width = 496
+    Height = 131
+    inherited Bevel1: TBevel
+      Width = 494
+      Height = 129
+    end
+    object Label1: TLabel [1]
+      Left = 40
+      Top = 32
+      Width = 211
+      Height = 16
+      Caption = 'ѕорог усредн€ющего фильтра'
+    end
+    object Edit1: TEdit
+      Left = 40
+      Top = 56
+      Width = 305
+      Height = 24
+      TabOrder = 2
+      Text = '1'
+      OnKeyPress = Edit1KeyPress
+    end
+  end
+end
